@@ -1253,6 +1253,7 @@ i.home-product-item__like-icon-fill {
 .footer-list {
     list-style: none;
     padding-left: 0;
+    user-select: none;
 }
 
 .footer-item {
@@ -1339,6 +1340,7 @@ i.home-product-item__like-icon-fill {
     align-items: center;
     /* border: 1px solid #dbdbdb; */
     box-shadow: 2px 2px 5px #ddd;
+    user-select: none;
 }
 
 .footer-item__pay-logo {
@@ -1346,9 +1348,9 @@ i.home-product-item__like-icon-fill {
     width: 52px;
     height: 22px;
     background-color: var(--white-color);
-    /* border: 1px solid #dbdbdb; */
     background-repeat: none;
     /* object-fit: contain; */
+    user-select: none;
 }
 
 .footer-bottom__checked-logo {
@@ -1381,3 +1383,10 @@ i.home-product-item__like-icon-fill {
     text-align: center;
 }
 
+.disclaimer {
+    display: flex;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #999;
+}

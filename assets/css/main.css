@@ -1390,3 +1390,46 @@ i.home-product-item__like-icon-fill {
     font-weight: 500;
     background-color: #999;
 }
+
+/* Disclaimer toast notification */
+.toast {
+    display: flex;
+    position: fixed;
+    background-color: #ef6044;
+    right: 0;
+    top: 20%;
+    width: 500px;
+    border-left: 6px solid #333333;
+    box-shadow: 2px solid #939393;
+    animation: fadeIn ease-in 0.3s;
+    z-index: 10;
+}
+
+.toast:hover {
+    background-color: #ef6044cc;
+
+}
+
+.toast__title {
+    font-size: 2.4rem;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+
+.toast__icon {
+    font-size: 3.6rem;
+    padding: 0 8px;
+    margin: auto;
+    line-height: 3.6rem;
+}
+
+.toast__close i {
+    font-size: 2.4rem;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+.toast__msg {
+    font-size: 1.6rem;
+}

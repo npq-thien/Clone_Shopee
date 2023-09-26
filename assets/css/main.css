@@ -1401,7 +1401,7 @@ i.home-product-item__like-icon-fill {
     width: 500px;
     border-left: 6px solid #333333;
     box-shadow: 2px solid #939393;
-    animation: fadeIn ease-in 0.3s;
+    animation: moveFromSide ease-in 0.3s;
     z-index: 10;
 }
 
